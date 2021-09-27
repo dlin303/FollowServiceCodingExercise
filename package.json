@@ -1,0 +1,25 @@
+{
+  "name": "followservicecodingexercise",
+  "version": "1.0.0",
+  "description": "Some dummy node functions and test harnesses",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlin303/FollowServiceCodingExercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlin303/FollowServiceCodingExercise/issues"
+  },
+  "homepage": "https://github.com/dlin303/FollowServiceCodingExercise#readme",
+  "devDependencies": {
+    "mocha": "^8.3.2",
+    "sinon": "^10.0.0",
+    "chai": "^4.3.4",
+    "esm": "^3.2.25"
+  }
+}
