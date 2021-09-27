@@ -5,22 +5,19 @@ import { expect } from 'chai';
 describe('running tests', () => {
   describe('follow', () => {
     it('should call follows', () => {
-      follow();
-      expect(true).to.be.true;
+      expect(follow(0, 100).statusCode).equals(200);
     });
   });
 
   describe('isFollowing', () => {
     it('should call isFollowing', () => {
-      isFollowing();
-      expect(true).to.be.true;
+      expect(isFollowing(0, 45).isFollowing).equals(true);
     });
   });
 
   describe('unfollow', () => {
     it('should call follows', () => {
-      unfollow();
-      expect(true).to.be.true;
+      expect(unfollow(0, 45).statusCode).equals(200);
     });
   });
 });
