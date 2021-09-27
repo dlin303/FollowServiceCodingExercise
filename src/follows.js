@@ -12,5 +12,6 @@ function unfollow() {
 
 export {
   follow,
+  isFollowing,
   unfollow,
 }
